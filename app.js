@@ -7,7 +7,7 @@ const logger = require("morgan");
 const webhookRouter = require("./routes/webhook");
 
 const app = express();
-const port = 4000;
+const port = 3000;
 
 app.use(logger("dev"));
 app.use(express.json());
